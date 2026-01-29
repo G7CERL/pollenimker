@@ -1328,7 +1328,7 @@ section,
 .portfolio .portfolio-content .portfolio-info h4 {
   font-size: 18px;
   font-weight: 600;
-  padding-right: 50px;
+  padding-right: 0px;
 }
 
 .portfolio .portfolio-content .portfolio-info h4 a {
@@ -1344,7 +1344,7 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   font-size: 14px;
   margin-bottom: 0;
-  padding-right: 50px;
+  padding-right: 0px;
 }
 
 .portfolio .portfolio-content:hover img {
