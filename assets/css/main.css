@@ -952,34 +952,44 @@ section,
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
-.clients {
-  padding: 10px 0;
-}
+/* .clients { */
+  /* padding: 10px 0; */
+/* } */
 
-.clients .client-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
+/* .clients .client-logo { */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* overflow: hidden; */
+/* } */
 
-.clients .client-logo img {
-  padding: 20px 40px;
-  max-width: 90%;
-  transition: 0.3s;
-  opacity: 0.5;
-  filter: grayscale(100);
-}
+/* .clients .client-logo img { */
+  /* padding: 20px 40px; */
+  /* max-width: 90%; */
+  /* transition: 0.3s; */
+  /* opacity: 0.5; */
+  /* filter: grayscale(100); */
+/* } */
 
-.clients .client-logo img:hover {
-  filter: none;
-  opacity: 1;
-}
+/* .clients .client-logo img:hover { */
+  /* filter: none; */
+  /* opacity: 1; */
+/* } */
 
-@media (max-width: 640px) {
-  .clients .client-logo img {
-    padding: 20px;
-  }
+/* @media (max-width: 640px) { */
+  /* .clients .client-logo img { */
+    /* padding: 20px; */
+  /* } */
+/* } */
+
+/* .call-to-action h3 { */
+  /* font-size: 28px; */
+  /* font-weight: 700; */
+/* } */
+
+.clients .freshpollen {
+	font-size: 20px;
+	font-weight: 600;
 }
 
 /*--------------------------------------------------------------
@@ -1345,6 +1355,12 @@ section,
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 0px;
+}
+
+.portfolio .portfolio-content .portfolio-info a strong {
+  color: #0041C2;
+  font-weight: normal;
+  /* font-size:14px; */
 }
 
 .portfolio .portfolio-content:hover img {
